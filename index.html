@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <title>Form validator</title>
+</head>
+<body>
+    <main>
+        <form action="" id="form-container">
+            <h2>Créer un compte</h2>
+            <div class="form-group">
+                <label for="username"> Pseudo
+
+                </label>
+                <input type="text" name="username" id="username">
+                <small>Error</small>
+            </div>
+            <div class="form-group">
+                <label for="email"> Email
+
+                </label>
+                <input type="email" name="email" id="email">
+                <small>Error</small>
+            </div>
+            <div class="form-group">
+                <label for="password"> Mot de Passe
+
+                </label>
+                <input type="password" name="password" id="password">
+                <small>Error</small>
+            </div>
+            <div class="form-group">
+                <label for="password-confirm"> Confirmation du mot de passe
+
+                </label>
+                <input type="password" name="password-confirm" id="password2">
+                <small>Error</small>
+            </div>
+            <div class="form-button">
+                <button type="submit">Envoyer</button>
+            </div>
+        </form>
+    </main>
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
